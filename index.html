@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Cycler</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Compiled and minified CSS   -->
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.css">
+  <link href="css/style.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+  <nav>
+    <div id="mynav" class="nav-wrapper #ef6c00 orange darken-3">      
+      <img id="navBarPic" class="center brand-logo" src="images/coollogo_com-29055133.png" height="75px" width="180px"></img>
+      <div class='copy'>©2018 ant, vin, abu</div>
+      
+    </div>
+  </nav>
+
+  <div>
+    <video style='display: none' id='myvideo' width="640" height="360">
+      <source id="myvidsrc" type="video/mp4"> Your browser does not support the video tag.
+    </video>
+    <video style='display: none' id='myvideo2' width="640" height="360">
+
+      <source id="myvidsrc2" type="video/mp4"> Your browser does not support the video tag.
+    </video>
+    <video style='display: none' id='myvideo3' width="640" height="360">
+
+      <source id="myvidsrc3" type="video/mp4"> Your browser does not support the video tag.
+    </video>
+    <video style='display: none' id='myvideo4' width="640" height="360">
+
+      <source id="myvidsrc4" type="video/mp4"> Your browser does not support the video tag.
+    </video>
+    <video style='display: none' id='myvideo5' width="640" height="360">
+
+      <source id="myvidsrc5" type="video/mp4"> Your browser does not support the video tag.
+    </video>
+  </div>
+
+
+
+  <main>
+    <div class="container">
+      <div id="mobility" class="row">
+        <div id="sideBar" class="col s12 m8 l7">
+          <form id="searchTest" onSubmit="return false;">
+            <div id="searchBar" class="input-field z-depth-3">
+
+              <input id="searchBarMain" type="text" class="validate" autocomplete="off">
+
+              <label for="searchBarMain">
+                <i class="material-icons">search</i>Search Here!</label>
+                
+            </div>
+            
+            <div id="domAttributes">
+              <div class="test valign-wrapper center-align">
+                <div id="JSobjectProp">
+                  <pre>{}</pre>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div id="sideBarButton" class="col s1 m4 l4">
+          <!-- <a  href="#" data-activates="slide-out" class="button-collapse show-on-large waves-effect waves-light btn">SideBar</a> -->
+        </div>
+
+
+
+
+        
+
+      </div>
+      <a id="Coast" class="btn-floating btn-large waves-effect waves-light #ef6c00 orange darken-3"><i class="material-icons">directions_bike</i></a>      
+      <a id="Pedal" class="btn-floating btn-large waves-effect waves-light #ef6c00 orange darken-3"><i class="material-icons">rotate_left</i></a>
+      <a id="Break" class="btn-floating btn-large waves-effect waves-light #ef6c00 orange darken-3"><i class="material-icons">rotate_right</i></a>
+      <a id="About" class="btn-floating btn-large waves-effect waves-light #ef6c00 orange darken-3"><i class="material-icons">help_outline</i></a>
+
+      
+           <div class="row">
+
+        <div id="the3Dbox" class="card col s12 m12 l12">
+          <div class="card-image waves-effect waves-block waves-light  z-depth-3">
+
+            <div id="rightherebaby" class="mycanvas">
+
+            </div>
+           
+          </div>
+         
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Search Results
+              <i class="material-icons right">close</i>
+            </span>
+            <div id="searchResults">
+              <p id="test1"> </p>
+              
+            </div>
+          </div>
+        </div>
+        <div id="youTubeVid" class=" card col s12 m12 l12">
+           
+        </div>
+        
+      </div>
+      <div class="row">
+        <div class="col s6 m6 l6">
+          <a id="closeButton" class="btn waves-effect waves-light #ef6c00" style="display: none;"> Close YouTube
+            <i class="tiny material-icons">arrow_downward</i>
+          </a>
+          
+      </div>
+        
+
+
+
+
+      <div class="col s12 m12 l10">
+        <ul class="collapsible" data-collapsible="accordion">
+          <li id="testColoring">
+            <div class="collapsible-header">
+              <i class="material-icons">tag_faces</i>Introduction</div>
+            <div class="collapsible-body">
+              <span>This is the first Project from Ant Vin Abu inc. Anthony Worked on the 3D aspects
+                and provided extremely good insight into the THREE.js script. Vinny worked on UI, intergrating Anthony's code into our HTML. Used Materialize and Anime.js to create a clean and readable site. Abu cracked the YouTube API, and allowed us to pull the embeded code. Teamwork at its finest.
+              </span>
+            </div>
+          </li>
+          <li>
+            <div class="collapsible-header">
+              <i class="material-icons">place</i>Idea</div>
+            <div class="collapsible-body">
+              <span>We wanted to make a 3D item viewing webpage that allowed users to browse the web like never before! We allow the user to view gifs, YouTube videos and wikipedia facts!</span>
+            </div>
+          </li>
+          <li>
+            <div class="collapsible-header">
+              <i class="material-icons">whatshot</i>Methods</div>
+            <div class="clickThis underlined"></div>
+            <div class="collapsible-body">
+              <span>-anime.js -three.js -youtube.api -wikipedia.api Giphy.api -materialize framework
+                  
+              </span>
+            </div>
+          </li>
+        </ul>
+
+
+      </div>
+
+
+    </div>
+
+
+
+  </main>
+
+
+
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/90/three.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <script src="https://apis.google.com/js/client.js?onload=googleApiClientReady">  </script>
+  <script src="3dcube.js"></script>
+  <script src="test.js"></script>
+</body>
+
+</html>

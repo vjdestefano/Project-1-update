@@ -1,0 +1,153 @@
+.nav-wrapper{
+  padding-bottom: 5%;
+}
+#test {
+  margin: 0;
+}
+
+body {
+  background: #616161 !important;
+}
+
+.switch {
+  padding-right: 5px !important;
+}
+
+a {
+  color: azure !important;
+}
+
+.active {
+  color: royalblue !important;
+}
+
+.switch label input[type="checkbox"]:checked + .lever {
+  background-color: royalblue;
+}
+
+.switch label input[type="checkbox"]:checked + .lever:after {
+  background-color: royalblue;
+}
+
+.row .input-field input:focus {
+  border-bottom: 1px solid royalblue !important;
+  box-shadow: 0 1px 0 0 royalblue !important;
+}
+.input-field input[type="text"]:focus {
+  border-bottom: 1px solid #000;
+  box-shadow: 0 1px 0 0 #000;
+}
+
+.input-field label {
+  color: #000;
+}
+
+#searchBar {
+  margin-top: 7px;
+}
+
+.test {
+  height: 50px;
+  width: 160;
+  background-color: azure;
+  padding-left: 10px;
+  padding-top: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.hoverable {
+  padding-left: 10px;
+}
+
+.underlined {
+  bottom: 30px;
+  height: 5px;
+  width: 5px;
+}
+.collapsible .active {
+  border-color: #616161;
+  border: 0px;
+  color: #ef6c00 !important;
+}
+
+#toc li {
+  padding: 10px;
+  margin-top: 20px;
+}
+
+#searchBarMain {
+  margin: 0;
+  background-color: azure !important;
+}
+
+#sideBar {
+  padding: 0px;
+}
+
+#sideBarButton {
+  margin-top: 7px;
+}
+
+#mobility {
+  margin-bottom: 0px;
+}
+
+#closeButton {
+  background-color: #ef6c00 !important;
+}
+
+#openButton {
+  background-color: #0000ff;
+}
+
+#the3Dbox,#youTubeVid {
+  margin: 0;
+  padding: 0;
+}
+
+#the3Dbox,#youTubeVid.card {
+  background-color: #ef6c00 !important;
+}
+
+
+    /*     <div id="mynav" class="nav-wrapper #ef6c00 orange darken-3">
+      <img id="navBarPic" class="center brand-logo" src="images/coollogo_com-29055133.png" height="75px" width="180px"></img>
+      <div class='copy'>©2018 ant, vin, abu</div>
+      <div id='btnRefresh' class='myNavButton'>Refresh</div>
+      <div id='btnAbout' class='myNavButton'>About</div>
+      
+    </div> */
+#mynav{
+ position: relative;
+}
+.myNavButton{
+  position: relative;
+  float:right;
+  border-radius: 0;
+  text-align: top;
+  height: 20px;
+  padding: 2px;
+  margin: 20px 0 0 0;
+ 
+}
+.myNavButton:hover{
+  color: lightslategrey;
+}
+#btnRefresh{
+  margin-right: 1%;
+
+}
+
+.navBarPic{
+  display: block;
+}
+.copy{  
+  position: relative;
+  top: -23px;
+  padding: 0 0 0 0;  
+  margin: 0 0 0 49%;
+  font-size: .8em;
+  z-index: 25;
+  display: inline; 
+}
